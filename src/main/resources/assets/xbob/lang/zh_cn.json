@@ -1,0 +1,15 @@
+{
+    "modmenu.nameTranslation.xbob": "准星摇晃",
+    "modmenu.descriptionTranslation.xbob": "令准星跟随视角摇晃。",
+    "xbob.config.title": "准星摇晃 配置",
+    "xbob.config.bob": "跟随视角摇晃",
+    "xbob.config.sneak": "潜行动画",
+    "xbob.config.item": "物品切换动画",
+    "xbob.config.aim": "瞄准动画",
+    "xbob.config.spear": "三叉戟激流动画",
+    "xbob.config.xbow": "弩蓄力动画",
+    "xbob.config.eat": "食物使用动画",
+    "xbob.config.atk": "攻击动画",
+    "xbob.config.value.enable": "启用",
+    "xbob.config.value.disable": "禁用"
+}

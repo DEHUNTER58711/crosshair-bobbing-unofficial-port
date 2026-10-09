@@ -1,0 +1,35 @@
+# UNOFFICIAL NeoForge port of "Crosshair Bobbing" by Krash220 (GPL-3.0).
+# Original: https://github.com/Krash220/CrosshairBobbingMod
+# Mod icon: src/main/resources/xbob_icon.png (128x128 PNG), made for this port by the team
+# (not taken from the original mod).
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+logoFile="xbob_icon.png"
+authors="${mod_authors}"
+credits="Original mod by Krash220 - https://github.com/Krash220/CrosshairBobbingMod (GPL-3.0). UNOFFICIAL port to Minecraft ${minecraft_version} / NeoForge by DEHunter58711, not endorsed by the original author. Please do not report issues of this port to the original author."
+description='''
+UNOFFICIAL NeoForge ${minecraft_version} port (by DEHunter58711) of Crosshair Bobbing by Krash220.
+Makes the crosshair follow the view bobbing.
+Client-side only; servers do not need it.
+'''
+
+[[mixins]]
+config="${mod_id}.mixins.json"
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"

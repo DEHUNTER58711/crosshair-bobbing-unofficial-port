@@ -1,0 +1,15 @@
+{
+    "modmenu.nameTranslation.xbob": "準心晃動",
+    "modmenu.descriptionTranslation.xbob": "令準心跟隨視角晃動。",
+    "xbob.config.title": "準心晃動 設定",
+    "xbob.config.bob": "跟隨視角晃動",
+    "xbob.config.sneak": "潛行動畫",
+    "xbob.config.item": "物品切換動畫",
+    "xbob.config.aim": "瞄準動畫",
+    "xbob.config.spear": "三叉戟激流動畫",
+    "xbob.config.xbow": "弩蓄力動畫",
+    "xbob.config.eat": "食物使用動畫",
+    "xbob.config.atk": "攻擊動畫",
+    "xbob.config.value.enable": "啟用",
+    "xbob.config.value.disable": "禁用"
+}
